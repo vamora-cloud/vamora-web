@@ -1,0 +1,77 @@
+/* Phone-first refinements — loaded after the main design system. */
+@media (max-width: 760px){
+  html{scroll-padding-top:66px}
+  body{min-width:320px}
+  .shell{width:calc(100% - 32px)}
+  .nav{padding:0 16px}
+  .wordmark{font-size:10px;letter-spacing:.21em}
+  .logo-crop{width:28px;height:26px}
+  .hero{min-height:100svh}
+  .hero-content{padding:34px 20px 92px}
+  .hero-label{max-width:260px;margin-bottom:20px;font-size:8px;line-height:1.65}
+  .hero-title{font-size:clamp(2.85rem,13.6vw,4.3rem);letter-spacing:-.08em}
+  .hero-copy{max-width:330px;margin:25px 0;font-size:12px;line-height:1.72}
+  .hero-actions{width:100%;flex-direction:column;gap:17px}
+  .hero-actions .button{width:min(100%,285px)}
+  .scroll-indicator{bottom:16px}
+  .scroll-indicator small{font-size:7px}
+  .section{padding:72px 0}
+  .eyebrow{margin-bottom:20px;font-size:9px}
+  h2{font-size:clamp(2.45rem,11.4vw,3.45rem);line-height:.94}
+  .split,.product-body,.founder-grid,.contact-layout{gap:25px}
+  .split>p,.focus-head>p,.contact-intro>p,.founder-copy>p:not(.eyebrow):not(.founder-role){font-size:12px;line-height:1.75}
+  .focus-grid{grid-template-columns:1fr;margin-top:40px;gap:9px}
+  .focus-grid article{min-height:145px;padding:18px;border-radius:17px}
+  .focus-grid h3{margin-top:34px;font-size:15px}
+  .focus-grid p{font-size:10px}
+  .focus-head{display:block}
+  .focus-head>p{margin-top:22px}
+  .statement{margin-top:38px;padding:26px 0;font-size:1.55rem}
+  .product-name{font-size:10px!important;line-height:2.6}
+  .product-name small{display:inline-block;margin-left:0;font-size:7px}
+  .product-body{margin-top:42px}
+  .product-list li{padding:14px 0;font-size:11px}
+  .product-list li span{width:37px;font-size:9px}
+  .chat{padding:9px;border-radius:20px;box-shadow:5px 6px 0 var(--light)}
+  .chat>div{border-radius:12px}
+  .chat-top{padding:11px}
+  .messages{min-height:238px;padding:12px;gap:8px}
+  .messages p{max-width:86%;padding:9px 10px;font-size:9px}
+  .chat-input{padding:10px 12px}
+  .steps{grid-template-columns:1fr;margin-top:40px}
+  .steps article,.steps article:first-of-type,.steps article:nth-of-type(3){min-height:auto;padding:17px 0 22px;border-right:0;border-bottom:1px solid var(--ash)}
+  .steps article:last-child{border-bottom:0}
+  .steps h3{margin:27px 0 7px;font-size:19px}
+  .steps p{max-width:280px;font-size:11px}
+  .philosophy{padding:82px 0}
+  blockquote{font-size:clamp(2.65rem,12vw,4.2rem);line-height:.9}
+  .orb{right:-45vw;top:-25vw;width:100vw;height:100vw}
+  .founder-grid{gap:46px}
+  .founder-photo{max-width:none}
+  .founder-photo img{aspect-ratio:1/1.12;object-position:center top;border-radius:20px}
+  .founder-photo figcaption{font-size:8px}
+  .founder-role{font-size:10px}
+  .linkedin-link{min-height:44px;padding:0 1px}
+  .contact-layout{gap:42px}
+  .contact-form{padding:17px;border-radius:19px;box-shadow:5px 6px 0 var(--light)}
+  .form-row{gap:0}
+  .contact-form label{margin-bottom:14px}
+  .contact-form input:not([type=checkbox]),.contact-form select,.contact-form textarea{min-height:44px;padding:11px;border-radius:11px;font-size:16px}
+  .contact-form textarea{min-height:118px}
+  .consent{grid-template-columns:18px 1fr!important;gap:9px!important;font-size:11px!important;line-height:1.45}
+  .consent input{width:16px;height:16px}
+  .submit-button{min-height:48px;margin-top:3px}
+  .form-note{font-size:9px}
+  .footer-main nav{grid-template-columns:1fr 1fr;gap:15px 22px}
+  .footer-bottom{font-size:8px}
+}
+@media (max-width: 370px){
+  .shell{width:calc(100% - 28px)}
+  .hero-title{font-size:2.75rem}
+  h2{font-size:2.32rem}
+  .hero-content{padding-inline:14px}
+  .focus-grid article{min-height:132px}
+}
+@media (hover:none){
+  .focus-grid article:hover,.chat:hover,.founder-photo:hover img,.button:hover{transform:none}
+}
